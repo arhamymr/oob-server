@@ -5,7 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "vps-setup": "chmod +x ./setup.sh && sudo ./setup.sh",
+    "pm2-start": "pm2 start server.js --name 'oob-server'",
+    "pm2-logs": "pm2 logs oob-server"
   },
   "keywords": [
     "oob",
