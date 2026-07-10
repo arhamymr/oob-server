@@ -1,0 +1,19 @@
+{
+  "name": "oob-server",
+  "version": "1.0.0",
+  "description": "Zero-dependency OOB (out-of-band) listener server for HTTP and DNS interaction logging",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "oob",
+    "collaborator",
+    "dns",
+    "http",
+    "security"
+  ],
+  "author": "",
+  "license": "ISC"
+}

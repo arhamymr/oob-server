@@ -1,0 +1,57 @@
+{
+  "payloads": [
+    {
+      "id": "31vkumkzdca",
+      "serverId": "custom-server",
+      "identifier": "kfplbx",
+      "payloadUrl": "kfplbx.localhost:3007",
+      "name": "Auto-Sync Payload kfplbx",
+      "description": "Auto-registered during polling sync",
+      "interactionCount": 0,
+      "status": "active",
+      "createdAt": "2026-07-10T13:31:31.511Z",
+      "lastSeenAt": null
+    }
+  ],
+  "interactions": [
+    {
+      "id": "lcr2vfbvbfq",
+      "identifier": "kfplbx",
+      "interaction_type": "http",
+      "source_ip": "::1",
+      "method": "GET",
+      "path": "/test-callback-url-params?token=usr_9923&debug=true",
+      "headers": "{\"host\":\"localhost:3007\",\"user-agent\":\"curl/8.7.1\",\"accept\":\"*/*\"}",
+      "raw_request": "GET /test-callback-url-params?token=usr_9923&debug=true HTTP/1.1\r\nhost: localhost:3007\r\nuser-agent: curl/8.7.1\r\naccept: */*\r\n\r\n",
+      "request_body": null,
+      "server_response": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nRecorded.",
+      "timestamp": "2026-07-10T13:31:45.987Z"
+    },
+    {
+      "id": "zsqzwlta5vo",
+      "identifier": "kfplbx",
+      "interaction_type": "http",
+      "source_ip": "::1",
+      "method": "GET",
+      "path": "/test-path?id=kfplbx",
+      "headers": "{\"host\":\"localhost:3007\",\"user-agent\":\"curl/8.7.1\",\"accept\":\"*/*\"}",
+      "raw_request": "GET /test-path?id=kfplbx HTTP/1.1\r\nhost: localhost:3007\r\nuser-agent: curl/8.7.1\r\naccept: */*\r\n\r\n",
+      "request_body": null,
+      "server_response": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nRecorded.",
+      "timestamp": "2026-07-10T13:33:03.337Z"
+    },
+    {
+      "id": "0mje0wn2jqk",
+      "identifier": "kfplbx",
+      "interaction_type": "http",
+      "source_ip": "::1",
+      "method": "GET",
+      "path": "/hellow=nwaws",
+      "headers": "{\"host\":\"localhost:3007\",\"user-agent\":\"curl/8.7.1\",\"accept\":\"*/*\"}",
+      "raw_request": "GET /hellow=nwaws HTTP/1.1\r\nhost: localhost:3007\r\nuser-agent: curl/8.7.1\r\naccept: */*\r\n\r\n",
+      "request_body": null,
+      "server_response": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nRecorded.",
+      "timestamp": "2026-07-10T13:33:49.550Z"
+    }
+  ]
+}
