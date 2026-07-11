@@ -11,6 +11,18 @@
       "status": "active",
       "createdAt": "2026-07-10T13:31:31.511Z",
       "lastSeenAt": null
+    },
+    {
+      "id": "g3w5g5jgdeb",
+      "serverId": "custom-server",
+      "identifier": "testval",
+      "payloadUrl": "testval.localhost:3009",
+      "name": "Payload testval",
+      "description": "",
+      "interactionCount": 0,
+      "status": "active",
+      "createdAt": "2026-07-11T10:33:00.729Z",
+      "lastSeenAt": null
     }
   ],
   "interactions": [
@@ -52,6 +64,19 @@
       "request_body": null,
       "server_response": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nRecorded.",
       "timestamp": "2026-07-10T13:33:49.550Z"
+    },
+    {
+      "id": "4qxo9a2qhkb",
+      "identifier": "testval",
+      "interaction_type": "http",
+      "source_ip": "::1",
+      "method": "GET",
+      "path": "/my-test-path",
+      "headers": "{\"host\":\"testval.localhost:3009\",\"user-agent\":\"curl/8.7.1\",\"accept\":\"*/*\"}",
+      "raw_request": "GET /my-test-path HTTP/1.1\r\nhost: testval.localhost:3009\r\nuser-agent: curl/8.7.1\r\naccept: */*\r\n\r\n",
+      "request_body": null,
+      "server_response": "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nRecorded.",
+      "timestamp": "2026-07-11T10:33:06.358Z"
     }
   ]
 }
